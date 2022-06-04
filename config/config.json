@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xD616a36d20f2f155c6e9aE1E66703dc59D33F107",
+  "SCAN_LINK": "https://etherscan.io/address/0xD616a36d20f2f155c6e9aE1E66703dc59D33F107",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "TeddyBearZ",
+  "SYMBOL": "BEAR",
+  "MAX_SUPPLY": 6250,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 135000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/teddy-bearz-nft",
+  "SHOW_BACKGROUND": false
+}

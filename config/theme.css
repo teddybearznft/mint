@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary: #69C798;
+  --primary-text: #441c28;
+  --secondary: #FBE8A6;
+  --secondary-text: #441c28;
+  --accent: none;
+  --accent-text: #441c28;
+}
+body
+{
+ font-family: 'Grandstander' !important;
+}
+button
+
+{
+  font-family: 'Grandstander' !important;
+  font-size: 1rem;
+ }
+button
+{
+  font-weight: 900 !important;
+  outline: 6px solid var(--text-light) !important;
+  font-size: 24px;
+  background-color: var(--background-light);
+  padding: 16px 24px 12px 24px !important;
+  transition: all 0.25s cubic-bezier(.46,1.28,.8,1.26);
+  font-family: 'Grandstander', cursive; border: none !important;color: var(--text-light) !important;
+  filter: drop-shadow(6px 6px 0 var(--text-light));
+  text-transform: uppercase;
+  font-weight: 900;
+}
+button:hover
+{
+  cursor: pointer !important;
+  background-color: var(--primary) !important;
+  filter: drop-shadow(10px 12px 0 var(--text-light));color: var(--text-light) !important;
+}
