@@ -37,3 +37,38 @@ button:hover
   background-color: var(--primary) !important;
   filter: drop-shadow(10px 12px 0 var(--text-light));color: var(--text-light) !important;
 }
+.texter {
+  background-color:var(--primary) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;position: relative !important;
+}
+.heading-text
+{
+  position: relative;
+  display: flex;
+  margin: 0 auto !important;
+  width: 80%;
+  overflow: visible !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;text-shadow: 12px 8px 0px var(--secondary-text);
+  -webkit-text-stroke-width: 6px; overflow: hidden;
+  -webkit-text-stroke-color: var(--secondary-text);
+  letter-spacing: -16px;
+  padding: 0px 16px;
+}
+.letter:hover 
+{
+  color: var(--primary) !important;
+  transform: translate(0%, -0%) rotate(5deg) scale(1.25 );
+  text-shadow:  12px 12px 0 var(--secondary-text);
+  padding: 0px 16px;
+}
+.letter
+{
+  font-family: 'Grandstander', cursive;
+  font-size: 10em;color: var(--secondary) !important;
+  font-weight: 900 !important;  transition: all 0.2s cubic-bezier(.46,1.28,.8,1.26);
+}
