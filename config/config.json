@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 6250,
   "WEI_COST": 30000000000000000,
   "DISPLAY_COST": 0.03,
-  "MAX_MINT": 20,
+  "MAX_MINT": 10,
   "GAS_LIMIT": 135000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/teddy-bearz-nft",
