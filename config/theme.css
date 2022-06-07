@@ -21,7 +21,7 @@ button
 button
 {
   font-weight: 900 !important;
-  outline: 6px solid var(--text-light) !important;
+  outline: 8px solid var(--text-light) !important;
   font-size: 24px;
   background-color: var(--background-light);
   padding: 16px 24px 12px 24px !important;
@@ -71,4 +71,22 @@ button:hover
   font-family: 'Grandstander', cursive;
   font-size: 10em;color: var(--secondary) !important;
   font-weight: 900 !important;  transition: all 0.2s cubic-bezier(.46,1.28,.8,1.26);
+}
+.backgroundImg {background-image: url(./images/bg.png) !important;
+background-repeat: repeat;
+background-position: top;
+background-size: 300px 300px !important;
+background-clip: padding-box;
+}
+.mint-container 
+{
+  padding: 50px 100px !important;
+  background-color: var(--secondary) !important;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 25;
+  border-radius: 40px;
+  transition: all 0.25s cubic-bezier(.46,1.28,.8,1.26) !important;
+  box-shadow: 0px 0px 0px 20px var(--primary) !important;
 }
